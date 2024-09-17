@@ -1,0 +1,45 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    font-family: Dhurjati;
+    color:white;
+    text-shadow:2px 2px 2px black;
+    text-align: center;
+    font-size: 72px;
+    border: outset;
+    border-width: 12px;
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+
+}
+a{
+    font-family: Ubuntu Light;
+    text-align: center;
+}
+p{
+    font-family: Ubuntu Light;
+    color: lightgray;
+    text-shadow: 1px 1px 1px black
+}
+h2{
+    font-family: Ubuntu;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+}
+ol{
+    font-family: Ubuntu Light;
+    color:lightgray;
+    text-shadow: 1px 1px 1px black;
+}
+.text{
+    animation: mySlide;
+    animation-play-state: running;
+    animation-iteration-count:initial;
+    animation-duration: 5s;
+}
+
+@keyframes mySlide{
+    from{transform: translateX(-1000px);}
+    to{transform: (translateX(0));}
+}
